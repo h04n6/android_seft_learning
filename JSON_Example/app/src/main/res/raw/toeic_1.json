@@ -1,0 +1,207 @@
+{
+  //đối với part 1, người dùng nghe từ file "sound_1_1" và nhìn ảnh "image_1_1" để trả lời
+  //01 câu hỏi.
+  "part1": [
+    {
+      "id": 1,
+      "sound": "toeic_sound_1_1", //đặt luôn link server vào đây
+      "question": "toeic_image_1_1",
+      "correct": "a"
+    },
+    {
+      "id": 2,
+      "sound": "toeic_sound_1_2",
+      "question": "toeic_image_1_2",
+      "correct": "b"
+    },
+    {
+      "id": 3,
+      "sound": "toeic_sound_1_3",
+      "question": "toeic_image_1_3",
+      "correct": "c"
+    }
+  ],
+
+  //đối với part 2, người dùng nghe từ file "sound_1_11" rồi trả lời 1 câu hỏi.
+  "part2": [
+    {
+      "id": 11,
+      "question": "toeic_sound_1_11",
+      "correct": "c"
+    }
+  ],
+
+  //đối với part 3, người dùng nghe từ file "sound_1_41" rồi trả lời liên tiếp 3 câu hỏi.
+  //mỗi câu hỏi có 4 đáp án cùng 1 câu trả lời đúng.
+  "part3": [
+    {
+      "id": [
+        41,
+        42,
+        43
+      ],
+      "sound": "toeic_sound_1_41",
+      "question": [
+        "Where is this conversation most likely taking place?",
+        "What does the woman ask the man about his steak?",
+        "What will the man probably say next?"
+      ],
+      "answer": [
+        "In an office",
+        "In a restaurant",
+        "In a gymnasium",
+        "In a grocery store",
+        "What kind he wants",
+        "How much it costs",
+        "How he wants it cooked",
+        "When she should serve it",
+        "Ranch, please.",
+        "No thank you.",
+        "That would be fine.",
+        "A blue dress."
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    {
+      "id": [
+        44,
+        45,
+        46
+      ],
+      "sound": "toeic_sound_1_44",
+      "question": [
+        "What position does the man probably hold?",
+        "What mistake did the man make?",
+        "What does the woman ask the man to do?"
+      ],
+      "answer": [
+        "Busboy",
+        "Cashier",
+        "Doorkeeper",
+        "Accountant",
+        "What kind he wants",
+        "How much it costs",
+        "How he wants it cooked",
+        "When she should serve it",
+        "Ranch, please.",
+        "No thank you.",
+        "That would be fine.",
+        "A blue dress."
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ],
+
+  //giống với part 3
+  "part4": [
+    {
+      "id": [
+        71,
+        72,
+        73
+      ],
+      "sound": "toeic_sound_1_71",
+      "question": [
+        "What is the main purpose of the report?",
+        "What does the speaker encourage shoppers to do?",
+        "How often does the speaker give shopping tips?"
+      ],
+      "answer": [
+        "To give shopping advice",
+        "To announce a cereal sale",
+        "To warn shoppers of fraud",
+        "To help shoppers save money",
+        "Buy food in bulk packages",
+        "Consider food volume",
+        "Pay the lowest prices",
+        "Eat more breakfast cereal",
+        "Daily",
+        "Weekly",
+        "Monthly",
+        "Annually"
+      ],
+      "correct": [
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  ],
+
+  //điền từ vào chỗ trống
+  "part5": [
+    {
+      "id": 101,
+      "question": "The new prices are _____ on March 1st.",
+      "answer": [
+        "effect",
+        "effective",
+        "effecting",
+        "effected"
+      ],
+      "correct": "a"
+    },
+    {
+      "id": 102,
+      "question": "Martin and Scott will give _____ presentation tomorrow.",
+      "answer": [
+        "his",
+        "its",
+        "their",
+        "theirselves"
+      ],
+      "correct": "a"
+    }
+  ],
+
+  //có 12 câu hỏi
+  "part6": [
+    {
+      "id":141,
+      "question":"Jan. 15th, 2012 \n Midwest Bank \n 2244 Main St., Omaha, NB 44331 \n Tel: (818) 555-8192 \n Rudolph Driscoll \n 874 Tumbleweed Lane, #A-103 \n Omaha, NB 44332 \n Dear Mr. Driscoll: \n We are writing to inform you that check No. 1384, in the __________ of $2,500, was presented for payment on  Jan. 8th against an account balance of $2,275. In accordance with your overdraft protection provision, we have paid the check and charged your account a $30 overdraft fee.",
+      "answer":[
+        "amount",
+        "total",
+        "value",
+        "price"
+      ],
+      "correct": "a"
+    },
+    {
+      "id":142,
+      "question":"To avoid further action, please make a deposit to your checking account as soon as possible. If you __________ already done so, you may disregard this notice.",
+      "answer":[
+        "had",
+        "haven't",
+        "have",
+        "having"
+      ],
+      "correct":"a"
+    },
+    {
+      "id": 142,
+      "question": "We appreciate your patronage of Midwest Bank. If you have any questions, or if there is a way we can service your needs, call our customer assistance line __________ 555-7700 between 9 a.m. and 5 p.m. Monday to Friday, or come into one of our six Omaha branches.",
+      "answer": [
+        "on",
+        "at",
+        "in",
+        "as"
+      ],
+      "correct": "a"
+    }
+  ],
+
+  "part7":[
+    {
+      "id":
+    }
+  ]
+}
